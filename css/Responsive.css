@@ -1,0 +1,35 @@
+/* @media (max-width: 986px){
+    .nav-link{
+        background-color: rgb(55, 55, 63);
+    }
+    
+}
+@media (max-width: 986px){
+    .Footer-logo{
+        width: 220px;
+    
+        height: 95px;
+    }
+}
+@media (max-width: 337px){
+    .Footer-logo{
+        width: 200px;
+    
+        height: 75px;
+    }
+}
+@media (max-width: 440px){
+    .logo-light{display: non;
+    }
+}
+@media (max-width: 900px){
+    body{width: 890px;
+    }
+} */
+@media screen and (max-width: 438px){
+    .image-over{
+       width:30px;
+    
+       
+    }
+    }

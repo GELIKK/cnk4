@@ -1,0 +1,285 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color:rgb(55, 55, 63);
+}
+header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: rgb(40, 40, 46);
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+header section {
+  width: 91%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header section aside a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  font-family: "ALK Sanet", sans-serif;
+  
+}
+header section nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  width: fit-content;
+}
+header section nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  color:white;
+  
+}
+header section nav ul li a:hover {
+  background-color: aquamarine;
+  transition: 1s;
+  
+}
+main {
+  margin-top: 79px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+main section {
+  width: 91%;
+}
+main .baner {
+  height: 821px;
+  position: relative;
+  /* background-image: url("https://i.pinimg.com/originals/7e/57/71/7e57711af468fc623ce45c4f8da231f5.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main .baner .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(54, 54, 54, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .baner .overlay h1 {
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.55em;
+  margin: 0px;
+}
+main .baner .overlay h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 0.5em;
+  text-align: center;
+}
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+main .line {
+  width: 1px;
+  height: 69px;
+  border-right: 1px solid grey;
+}
+
+main .about {
+  width: 28%;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+
+main .headerText {
+  font-size: 18px;
+  font-family: "ALK Life", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: lowercase;
+  text-align: center;
+  color: white;
+}
+
+main .about .bottom p {
+  line-height: 30px;
+  font-size: 1px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+
+main .portfolio {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 50px;
+}
+
+main .portfolio .bottom {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+main .portfolio .bottom article {
+  width: 100%;
+  height: 792px;
+  position: relative;
+ 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+
+form {
+  width: 631px;
+  height: 179px;
+  padding-top: 40px;
+  color: white;
+}
+.mb-3 {
+  width: 441px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mb-3 input {
+  color: white;
+  width: 441px;
+  height: 42px;
+  border-radius: 0%;
+
+  border: 1px solid black;
+  background-color: transparent;
+}
+.mb-3 input:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+form .mb-3 .primary {
+  width: 200px;
+  height: 42px;
+  margin-left: 20px;
+  color: white;
+
+  border: 0px solid white;
+  background-color: transparent;
+}
+form .mb-3 .primari:hover {
+  background-color: white;
+  color: white;
+  border: 0px;
+  transition: 1s ease;
+}
+h5 {
+  text-align: center;
+  font-family: "ALK Sanet", sans-serif;
+}
+.contact {
+  height: 179px;
+  margin-top: 20px;
+}
+.contact p {
+  margin-left: 150px;
+  color: white;
+  font-size: 18px;
+  font-family: "ALK Life", sans-serif;
+}
+.contact span {
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: "ALK Life", sans-serif;
+}
+.esaid {
+  width: 28%;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 20px;
+}
+footer {
+  width: 1210px;
+  height: 80px;
+  display: grid;
+}
+footer li {
+  list-style: none;
+  margin: 10px;
+}
+footer li a {
+  color: black;
+}
+footer div {
+  height: 10px;
+  margin-top: 50px;
+}
+.logo{
+  width:90px;
+  height:90px;
+  border-radius: 90px;
+}
+.portimgs{
+  width: 600px;
+  height: 700px;
+}
+.group{
+  padding-left: 25%;
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.55em;
+  margin: 0px;
+}
+.milena{
+  
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.55em;
+  margin: 0px;
+}
+.cnk{
+  padding-left: 33%;
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.55em;
+  margin: 0px;
+}
+.bolo p{
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  color: white;
+}
+a{text-decoration: none;
+color: aqua;}
+
+.portproject{
+  width: 100px;
+  height: 600px; 
+}

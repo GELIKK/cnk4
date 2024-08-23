@@ -1,0 +1,203 @@
+:root {
+    --angle: 45deg;
+    --opacity: 0.5;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .light {
+    width: 446.08px;
+    height: 444.78px;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: aut;
+    
+  
+    display: grid;
+    place-content: center;
+    text-align: center;
+  
+    font-size: 1.5em;
+  
+    --border-size: 0.3rem;
+    border: var(--border-size) solid transparent;
+  
+    border-image: conic-gradient(
+        from var(--angle),
+        #12f3ff 0deg 90deg,
+        #77ffff 90deg 180deg,
+        #00ffff 180deg 270deg,
+        #1dcece 270deg 360deg
+      )
+      2 stretch;
+    ;
+  }
+  @supports (background: paint(houdini)) {
+    @property --opacity {
+      syntax: "<number>";
+      initial-value: 0;
+      inherits: false;
+    }
+  
+    @property --angle {
+      syntax: "<angle>";
+      initial-value: 0deg;
+      inherits: false;
+    }
+  
+    @keyframes opacityChange {
+      to {
+        --opacity: 1;
+      }
+    }
+  
+    @keyframes rotate {
+      to {
+        --angle: 360deg;
+      }
+    }
+  
+    .light {
+      animation: rotate 0.5s linear infinite, opacityChange 3s infinite alternate;
+    }
+  
+   
+  }
+  :root {
+    --angle: 45deg;
+    --opacity: 0.5;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .light2 {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: aut;
+    
+  
+    
+  
+    font-size: 1.5em;
+  
+    --border-size: 0.3rem;
+    border: var(--border-size) solid transparent;
+  
+    border-image: conic-gradient(
+        from var(--angle),
+        rgb(150, 216, 199)0deg 90deg,
+        rgb(132, 194, 178) 270deg 360deg,
+        rgb(110, 165, 151) 180deg 270deg,
+        rgb(82, 255, 209)270deg 360deg
+      )
+      2 stretch;
+    ;
+  }
+  @supports (background: paint(houdini)) {
+    @property --opacity {
+      syntax: "<number>";
+      initial-value: 0;
+      inherits: false;
+    }
+  
+    @property --angle {
+      syntax: "<angle>";
+      initial-value: 0deg;
+      inherits: false;
+    }
+  
+    @keyframes opacityChange {
+      to {
+        --opacity: 1;
+      }
+    }
+  
+    @keyframes rotate {
+      to {
+        --angle: 360deg;
+      }
+    }
+  
+    .light2 {
+      animation: rotate 0.2s linear infinite, opacityChange 3s infinite alternate;
+    }
+  
+   
+  }
+  :root {
+    --angle: 45deg;
+    --opacity: 0.5;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  .logo-light {
+    width: 200px;;
+    height: auto;
+    border-radius: 90px;
+    padding: 2rem;
+    margin: aut;
+    
+  
+    
+  
+    font-size: 1.5em;
+  
+    --border-size: 0.3rem;
+    border: var(--border-size) solid transparent;
+  
+    border-image: conic-gradient(
+        from var(--angle),
+        #00fbff 0deg 90deg,
+        #000000 270deg 360deg,
+        #000000 180deg 270deg,
+        #00AEEF 270deg 360deg
+      )
+      2 stretch;
+    ;
+  }
+  @supports (background: paint(houdini)) {
+    @property --opacity {
+      syntax: "<number>";
+      initial-value: 0;
+      inherits: false;
+    }
+  
+    @property --angle {
+      syntax: "<angle>";
+      initial-value: 0deg;
+      inherits: false;
+    }
+  
+    @keyframes opacityChange {
+      to {
+        --opacity: 1;
+      }
+    }
+  
+    @keyframes rotate {
+      to {
+        --angle: 360deg;
+      }
+    }
+  
+    .logo-light {
+      animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+    }
+  
+   
+  }
